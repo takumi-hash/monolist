@@ -9,6 +9,9 @@
                         </div>
                         <div class="panel-body">
                             <p class="item-title"><a href="#">{{ $item->name }}</a></p>
+                            <div class="buttons text-center">
+                                @include('items.want_button', ['item' => $item])
+                            </div>
                         </div>
                     </div>
                 </div>

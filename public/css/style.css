@@ -70,3 +70,11 @@ p.item-title {
     -webkit-line-clamp: 2;
     overflow: hidden;
 }
+/* item */
+.item .panel-body {
+    height: 120px;
+}
+.item .buttons form {
+    display: inline-block;
+    margin: 0 5px;
+}
