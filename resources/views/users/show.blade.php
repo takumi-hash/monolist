@@ -27,4 +27,5 @@
     </div>
     @include('items.items', ['items' => $items])
     {!! $items->render() !!}
+    {{-- print $want_items --}}
 @endsection
